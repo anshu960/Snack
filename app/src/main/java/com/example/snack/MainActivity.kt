@@ -1,5 +1,6 @@
 package com.example.snack
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
@@ -46,12 +47,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun loginBtnNavClicked(view: View){
-
+       val intent = Intent(this,LoginActivity::class.java)
+        startActivity(intent)
     }
     fun addChannelClicked(view: View){
 
     }
     fun sendMsgBtnClicked(view: View){
-        
+
     }
 }

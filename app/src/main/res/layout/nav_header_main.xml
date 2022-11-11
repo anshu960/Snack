@@ -51,6 +51,7 @@
         android:background="@android:color/transparent"
         android:onClick="loginBtnNavClicked"
         android:text="@string/login"
+        android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
